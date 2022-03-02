@@ -16,8 +16,7 @@ public:
 
     std::string parsing(const unsigned in)
     {
-        if (in > kLimit)
-        {
+        if (in > kLimit) {
             return "Error: more than 4 billion!";
         }
 
